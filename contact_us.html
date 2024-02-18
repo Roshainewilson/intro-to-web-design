@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About Us</a>
+    <a href="contact_us.html">Contact Us</a>
+    <h1 style="color: aqua;">Contact Us</h1>
+    <hr/>
+    
+    <h2>Location</h2>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Opening Hours</th>
+            <th>Email Address</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>St.Catherine</td>
+            <td>9AM-5PM</td>
+            <td>st.catherebranch@relaxation.com</td>
+            <td>8769345678</td>
+        </tr>
+        <tr>
+            <td>kingston</td>
+            <td>9AM-5PM</td>
+            <td>kingstonbranch@relaxation</td>
+            <td>876934564</td>
+        </tr>
+        <tr>
+            <td>portland</td>
+            <td>9AM-5PM</td>
+            <td>portlandbranch@relaxation.com</td>
+            <td>8769345678</td>
+        </tr>
+    </table>
+
+    <h2>General Inquires</h2>
+    <form action="confirmation.html">
+        <label  for="FullName">Name: *</label><br/>
+        <input required type="text" id="FullName" name="FullName"/>
+        <br/><br/>
+        <label for="email">EmailAdress</label><br/>
+        <input required type="email" id="Email" name="EmailAdress"/>
+        <br/><br/>
+        <label>are you employed</label>
+        <input type="radio" value="y" name="employed"/>
+        <input type="radio" value="n" name="employed"/>
+        <br/>
+        <label for="inquire">state your inquire *</label><br/>
+        <textarea cols="50" rows="10" maxlength="150"></textarea>
+        <br/>
+        <input type="submit"/>
+
+    </form>
+    
+</body>
+</html>
