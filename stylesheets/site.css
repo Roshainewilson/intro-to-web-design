@@ -13,3 +13,56 @@ h2{
 p,li{
     font-family: 'Courier New', Courier, monospace;
 }
+#banner{
+    background-color: aqua;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#banner p{
+    margin: 0px;
+}
+#nav,nav{
+    background-color: rgb(0, 217, 255);
+    color: rgb(30, 183, 210);
+    padding: 10px;
+    text-align: center;
+}
+#nav a,nav a{
+    color: aliceblue;
+    text-decoration-line: none;
+    font-size: large;
+    margin-right: 10px;
+}
+#nav a:hover{
+    color: aquamarine;
+}
+#nav a:hover
+#footer,footer{
+ color: rgb(31, 150, 150);
+ min-height: 150px;
+ text-align: center;
+}
+#footer a,footer a{
+    color: blue;
+    text-decoration: overline;
+}
+#main,main{
+    width: 80%;
+    margin: 0 auto;
+}
+article{
+    margin-bottom: 10 px;
+}
+
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.differentlookingtext{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
